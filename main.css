@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
-}
-
-body {
   font-family: 'Source Sans Pro', san-serif;
 }
+
 .hero {
   height: 100vh;
   background-image: url('./images/hero.png');
@@ -28,12 +26,15 @@ body {
 }
 
 .author {
-  color: #bbc085
+  color: #bbc085;
+  font-family: 'Source Sans Pro', san-serif;
+  font-size: 50px;
 }
 
 .header-link {
   text-decoration: none;
   color: black;
+  font-size: 18px; 
 }
 
 .header-link:hover {
@@ -42,13 +43,34 @@ body {
 
 .hero-text {
   font-size: 40px;
-  color: #9b9b9b;
-  width: 50%;
-  margin-top: 50px;
-  line-height: 2;
+  color: grey;
+  width: 60%;
+  line-height: 2em;
 }
 
-.black-bold {
+.black-text {
   color: black;
-  font-weight: bold;
+}
+
+.about-me{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.paragraphs{
+  display:flex;
+  font-size: 21px;
+  color: #a1a1a1;
+  margin: 10px;
+  line-height: 50px;
+  justify-content: space-between;
+}
+
+.para1{
+  margin: 21px; 
+}
+
+.para2{
+  margin: 21px;
 }
