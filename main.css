@@ -1,76 +1,140 @@
-* {
-  box-sizing: border-box;
-  font-family: 'Source Sans Pro', san-serif;
+
+.hero-image {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
-.hero {
-  height: 100vh;
-  background-image: url('./images/hero.png');
-  padding: 15px;
-  background-size: cover;
+.hero{
+    height: 100vh;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
+.author{   
+    color: #78744e;
+    font-family: 'Source Sans Pro', san-serif;
+    font-size: 50px;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-family: 'Source Sans Pro', san-serif;
+ 
+    border-radius: 5px;
+    padding: 15px;  
+
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-  border-radius: 5px;
-  padding: 15px;
+.header-link{
+    text-decoration: none;
+    color:black;
+    font-family: 'Source Sans Pro', san-serif;  
+    font-size: 18px; 
 }
-
-.author {
-  color: #bbc085;
-  font-family: 'Source Sans Pro', san-serif;
-  font-size: 50px;
-}
-
-.header-link {
-  text-decoration: none;
-  color: black;
-  font-size: 18px; 
-}
-
 .header-link:hover {
-  font-weight: bold;
+    color: black;
+    font-weight: bold;
 }
 
-.hero-text {
-  font-size: 40px;
-  color: grey;
-  width: 60%;
-  line-height: 2em;
-}
+.tag-line{
+    font-size: 32px;
+    width: 60%;
+    color: grey;
+    font-size: 40px;
+    line-height: 2em;
 
-.black-text {
-  color: black;
+}
+.hi{
+    color: black;
 }
 
 .about-me{
-  font-family: 'Lora', serif;
-  font-size: 36px;
-  margin-left: 50px;
-}
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    margin-left: 50px;
 
+
+}
 .paragraphs{
-  display:flex;
-  font-size: 21px;
-  color: #a1a1a1;
-  margin: 10px;
-  line-height: 50px;
-  justify-content: space-between;
+    display:flex;
+    font-family: 'Source Sans Pro', san-serif;
+    font-size: 21px;
+    color: #a1a1a1;
+    margin: 10px;
+    line-height: 50px;
+    justify-content: space-between;
 }
 
 .para1{
-  margin: 21px; 
+    margin: 21px; 
+    
 }
 
 .para2{
-  margin: 21px;
+    margin: 21px;
+}
+
+.work{
+    background-color: lightgrey;
+    width: 500px;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.contact-image{
+    margin-top: 42px;
+}
+
+.like-it{
+    font-family: 'Lora', serif;
+    color: #c49075;
+   font-size: 50px;
+  
+}
+
+.envelope{
+    font-family:'Source Sans Pro', san-serif;
+    color: #c49075;
+}
+
+.email-header{
+    color: gray;
+    font-size: 32px;
+    font-family:'Source Sans Pro', san-serif;
+   text-align: center;
+  
+}
+.email{
+    font-family:'Lora', serif;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+   
+}
+.email:hover{
+    color: gray;
+}
+
+.socialmedia{
+    display: flex;
+    text-align: center;
+    justify-content: center ;
 }
