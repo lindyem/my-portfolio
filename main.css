@@ -85,7 +85,7 @@
 
 .work{
     display: flex;
-    background-color: lightgrey;
+    background-color: #D9D7D8;
     justify-content: space-between;
     padding: 30px;
     align-items: center;
@@ -96,12 +96,47 @@
     flex-direction: column;
     align-items: center;
 }
+
+.html-css{
+    font-family: 'Source Sans Pro', san-serif;
+    color:#c49075;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.frontend-text{
+    font-family: 'Source Sans Pro', san-serif;
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+    line-height: 30px;
+
+}
 .lx{
     display:flex;
     width:40%;
     flex-direction: column;
     align-items: center;
 }
+
+.lxdesign{
+    font-family: 'Source Sans Pro', san-serif;
+    color:#c49075;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 700;
+    
+}
+
+.lx-text{
+    font-family: 'Source Sans Pro', san-serif;
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
 .contact{
     display: flex;
     justify-content: space-around;
